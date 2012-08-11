@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Live Wallpaper</string>
+    <string name="wallpaper">Video live wallpaper</string>
+    <string name="description">Use a video as the wallpaper</string>
+    <string name="nofound">No videos found</string>
+    <string name="titlecate">Wallpaper settings</string>
+    <string name="preftit">Set video frame rate</string>
+    <string name="kosongan">  </string>
+    <string name="spanvid">Span video</string>
+    <string name="spansum">Split video across the home screens</string>
+    <string name="selvid">Select video</string>
+    <string name="selsum">Press to select a video</string>
+</resources>

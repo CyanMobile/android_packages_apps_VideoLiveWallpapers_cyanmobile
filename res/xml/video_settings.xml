@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/titlecate">
+            
+	<ffvideolivewallpaper.frankandrobot.com.PrefsSlider
+            android:key="fps"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical"
+	    android:title="@string/preftit"
+            android:summary="@string/kosongan"
+            android:defaultValue="30" />
+        
+	<CheckBoxPreference
+	   android:title="@string/spanvid"
+	   android:key="spanVideo"
+	   android:summary="@string/spansum" 
+	   android:defaultValue="true"
+	   />
+
+	<PreferenceScreen
+	   android:title="@string/selvid" 
+	   android:summary="@string/selsum"
+	   >
+	  <intent
+             android:targetPackage="ffvideolivewallpaper.frankandrobot.com"
+             android:targetClass="ffvideolivewallpaper.frankandrobot.com.SelectVideo"/>
+	</PreferenceScreen>
+
+    </PreferenceCategory>
+                
+</PreferenceScreen>
